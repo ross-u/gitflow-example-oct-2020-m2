@@ -4,7 +4,7 @@ var siteRouter = express.Router();
 
 // Your routes
 siteRouter.get("/profile", (req, res, next) => {
-  res.send("Uros was here");
+  res.render("Home");
 });
 
 module.exports = siteRouter;
