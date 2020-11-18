@@ -3,8 +3,8 @@ const app = require("../app");
 var siteRouter = express.Router();
 
 // Your routes
-siteRouter.get("/profile", (req, res, next) => {
-  res.render("Home");
+siteRouter.post("/profile", (req, res, next) => {
+  res.send("David was here");
 });
 
 module.exports = siteRouter;
